@@ -1,0 +1,342 @@
+@media (max-width: 1025px){
+   
+    .banner .flex .col2 .image{
+        margin-right: -54px;
+        margin-top: -35px;
+    }
+    .sec_job .flex .col .inner .company{
+        justify-content: space-between;
+        gap: unset;
+    }
+    .top_recruitor .flex .col .inner .job-pay li:nth-child(2) {
+        padding-left: 18px;
+    }
+    .sec_employer .flex .col2{
+        padding-left: 43px;
+    }
+    .key_benefits .contain .sec_content {
+        width: 68%;
+    }
+    .key_benefits .contain .sec_heading {
+        width: 55%;
+    }
+}
+@media (max-width: 991px){
+    .banner .sec_heading h1{
+        font-size: 53px;
+    }
+    body .banner::before{
+        width: 106%;
+    }
+    .banner .flex .col2 .image{
+        margin-right: -54px;
+        margin-top: -35px;
+    }
+    .sec_about .flex .col {
+        width: 100%;
+    }
+    .sec_about .flex .col1 {
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+    .sec_about .flex .col2{
+        width: 84%;
+        margin: 0 auto;
+    }
+    .sec_about .shape {
+        right: 3.5rem !important;
+    }
+    .sec_work .flex .col {
+        width: 50%;
+    }
+    .sec_work .flex .col:nth-child(3){
+        margin-top: 155px;
+    }
+    .sec_job .flex .col {
+        width: 50%;
+    }
+    .sec_benefit .flex{
+        flex-direction: column-reverse;
+    }
+    .sec_benefit .flex .col {
+        width: 100%;
+    }
+    .sec_benefit .flex .col2 {
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+    .top_recruitor .flex .col {
+        width: calc(100%/2);
+    }
+    footer .contain .flexRow{
+        flex-wrap: wrap;
+    }
+    footer .flexRow>.col {
+        flex: unset !important;
+        width: calc(100%/2);
+    }
+    .sec_count_it .flex .col{
+        width: calc(100%/2);
+    }
+    .sec_count_it .contain h1::before{
+        left: 37%;
+    }
+    .sec_cta .contain .content {
+        width: 54%;
+    }
+    #sec_market .contain .flex .col{
+        padding: 33px 13px 33px 13px;
+    }
+    .sec_employer .flex{
+        flex-direction: column-reverse;
+    }
+    .sec_employer .flex .col {
+        width: 100%;
+    }
+    .sec_employer .flex .col2{
+        padding-left: 0px;
+    }
+    .sec_employer .contain .image{
+        margin: 0 auto;
+    }
+    .sec_grid .flex .col {
+        width: 100%;
+        flex: unset;
+    }
+    .sec_employer .flex .col1::after{
+        right: 13%;
+    }
+    body .sec_employer .shape{
+        top: 8rem;
+    left: 5.5rem;
+    }
+    .key_benefits .flex .col {
+        width: calc(100%/2);
+    }
+    .sec_career .flex .col {
+        width: 100%;
+    }
+    .sec_career .flex .col1 {
+        padding-right: 0;
+    }
+    .sec_career .vidBlk{
+        padding-bottom: 68%;
+    }
+    .careers-parallax .flex .col {
+        width: calc(100%/2);
+    }
+    .requirement .contain .colr {
+        width: 81%;
+    }
+    #contact-us .contain  .inner {
+        width: 75%;
+    }
+    #contact-sec .flex .col {
+        width: 50%;
+        flex: unset;
+        padding: 13px;
+        margin: 0;
+    }
+    .application-form .contain .inner{
+        width: 95%;
+    }
+    
+}
+
+@media (max-width: 769px){
+    .banner .flex .col{
+        flex: unset;
+    }
+    .banner .flex .col1 {
+        width: 100%;
+    }
+    .banner .flex .col2 {
+        width: 100%;
+    }
+    .banner .flex .col2 .image {
+        margin-right: 0;
+        margin-top: -154px;
+        margin-bottom: 36px;
+    }
+    header .toggle {
+        display: flex;
+    }
+    [nav].active {
+        opacity: 1;
+        visibility: visible;
+    }
+    [nav] {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        display: flex;
+        align-content: space-between;
+        flex-flow: column;
+        width: auto;
+        background: #fff;
+        margin: 0;
+        padding: 2rem 5rem;
+        border-top: 0.2rem solid #eee;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 0;
+        height: 100%;
+    }
+    header [nav] ul {
+        width: 100%;
+        flex-flow: wrap;
+        margin: auto 0;
+    }
+    header [nav] ul li {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+    header [nav] ul li a {
+        color: #000;
+    }
+    .sec_employer .flex .col2{
+        padding-bottom: 25px;
+    }
+}
+@media (max-width: 512px){
+    #contact-sec .flex .col {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #contact-us .contain  .sec_heading{
+        width: 100%;
+    }
+    #contact-us .contain .inner {
+        width: 100%;
+    }
+    footer .flexRow>.col {
+        flex: unset !important;
+        width: 100%;
+    }
+    .sec_career .flex .col1 {
+        padding-bottom: 30px;
+    }
+    .sec_career .contain .vidBlk {
+        padding-bottom: 100%;
+        margin-top: 10px;
+    }
+    .careers-parallax .flex .col {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .careers-parallax .flex .col:last-child {
+        padding-bottom: 0;
+    }
+    .sec_job .flex .col {
+        width: 100%;
+        padding: 0;
+    }
+    .requirement .contain .colr {
+        width: 100%;
+    }
+    .sec_employer .flex .col1::after {
+        right: -2%;
+        bottom: -27%;
+    }
+    body .sec_employer .shape {
+        top: 1rem;
+        left: -1.5rem;
+    }
+    .key_benefits .contain .sec_heading {
+        width: 100%;
+    }
+    .key_benefits .contain .sec_content {
+        width: 100%;
+    }
+    .key_benefits .flex .col {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .sec_cta .contain .content {
+        width: 100%;
+    }
+    .sec_work .flex .col {
+        width: 100%;
+        padding: 10px 0;
+        margin-top: 160px;
+    }
+    .sec_work .flex .col:first-child {
+        margin-top: 60px;
+    }
+    .top_recruitor .contain .sec_content {
+        width: 100%;
+    }
+    .top_recruitor .flex .col {
+        width: 100%;
+        padding: 15px 0;
+    }
+    .sec_count_it .flex .col {
+        width: 100%;
+        padding: 10px 0;
+    }
+    #sec_market .contain .flex .col {
+        width: 100%;
+        padding: 26px 16px;
+        flex: unset;
+        margin: 0;
+        margin-top: 30px;
+        overflow: hidden;
+    }
+    .banner .flex .col2 .image {
+        margin-right: 0;
+        margin-top: -88px;
+        margin-bottom: 64px;
+    }
+    .sec_about .flex .col2 {
+        width: 100%;
+    }
+    .sec_about .contain .inside .image-1 {
+        width: 35%;
+        display: none;
+    }
+    .sec_about .contain .overlap-grid{
+        width: 100%;
+    }
+    .sec_about .contain .overlap-grid-2 .item:nth-child(1){
+        margin-top: 70px;
+    margin-right: 17%;
+    margin-left: 12px;
+    }
+    body .sec_about .shape {
+        right: 16.5rem !important;
+        top: 4rem !important;
+    }
+    .sec_about .flex .col2::after {
+        left: 80%;
+        bottom: -21%;
+    }
+    .sec_testimonials .contain  .inner{
+        height: 100%;
+    }
+    .sec_testimonials .contain .inner::before{
+        display: none;
+    }
+    .sec_testimonials .contain  .inner .col{
+        flex: unset;
+    }
+    .sec_testimonials .contain  .inner .col2 {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 10px;
+        padding: 10px 0;
+        margin-top: 157px;
+    }
+    .sec_testimonials  .contain .inner .image{
+        box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 38%);
+    top: 17px;
+    left: 102%;
+    }
+    .buton{
+        margin-top: 30px !important;
+    }
+
+}
